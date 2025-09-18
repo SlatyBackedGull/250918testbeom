@@ -21,7 +21,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 255, 0);
+  background(255, 50, 255);
   if (!playing) {
     textAlign(CENTER, CENTER);
     textSize(36);
