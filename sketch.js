@@ -1,8 +1,10 @@
+
 // p5.js 벽돌깨기 게임 (모바일 대응)
 let paddle, ball, bricks = [];
 let rows = 5, cols = 8;
 let brickW, brickH;
 let playing = true, win = false;
+
 
 function setup() {
   createCanvas(windowWidth, windowHeight * 0.7);
